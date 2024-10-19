@@ -46,7 +46,7 @@ export class IPXV5 implements IpxApiCaller{
   }
 
   async setDimmerPosition(value: CharacteristicValue, platform: IPXPlatform, accessory: PlatformAccessory) {
-    this.setAnaPosition(100-(100 - (value as number)), platform, accessory);
+    this.setAnaPosition(100 - (100 - (value as number)), platform, accessory);
     return;
   }
 
