@@ -21,7 +21,7 @@ Using a terminal on the computer running homebridge:
 
 ```
 #clone plugin
-git clone https://github.com/Adrien-B/ipx800.git
+git clone https://github.com/scareface972/ipx800.git
 
 # install dependency
 cd ipx800
